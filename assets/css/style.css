@@ -1824,3 +1824,94 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+/*--------------------------------------------------------------
+# Gramatica section
+--------------------------------------------------------------*/
+.gramatica .nav-tabs {
+  border: 0;
+}
+
+.gramatica .nav-link {
+  padding: 15px 0;
+  transition: 0.3s;
+  color: var(--color-secondary);
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+  border-bottom: 4px solid #e2e4e6;
+}
+
+.gramatica .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.gramatica .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 575px) {
+  .gramatica .nav-link h4 {
+    font-size: 16px;
+  }
+}
+
+.gramatica .nav-link:hover {
+  color: var(--color-primary);
+}
+
+.gramatica .nav-link.active {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: var(--color-primary);
+}
+
+.gramatica .tab-content {
+  margin-top: 30px;
+}
+
+.gramatica .tab-pane h3 {
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.gramatica .tab-pane h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--color-primary);
+  left: 0;
+  bottom: 0;
+}
+
+.gramatica .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gramatica .tab-pane ul li {
+  padding-top: 10px;
+}
+
+.gramatica .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--color-primary);
+}
+
+.gramatica .tab-pane p:last-child {
+  margin-bottom: 0;
+}
