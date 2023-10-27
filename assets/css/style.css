@@ -651,9 +651,10 @@ section {
 .parametros {
   position: relative;
   z-index: 2;
+  cursor: pointer;
 }
 
-.parametros .icon-box {
+.parametros .icon-box-1 {
   padding: 40px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -662,39 +663,223 @@ section {
   height: 100%;
 }
 
-.parametros .icon-box i {
-  color: #e96b56;
+.parametros .icon-box-1 i {
+  color: #AF6DED;
   font-size: 42px;
   margin-bottom: 15px;
   display: block;
   line-height: 0;
 }
 
-.parametros .icon-box h3 {
+.parametros .icon-box-1 h3 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 15px;
 }
 
-.parametros .icon-box h3 a {
+.parametros .icon-box-1 h3 a {
   color: #545454;
   transition: 0.3s;
 }
 
-.parametros .icon-box p {
+.parametros .icon-box-1 p {
   color: #545454;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.parametros .icon-box:hover {
-  background: #e96b56;
+.parametros .icon-box-1:hover {
+  background: #AF6DED;
 }
 
-.parametros .icon-box:hover i,
-.parametros .icon-box:hover h3 a,
-.parametros .icon-box:hover p {
+.parametros .icon-box-1:hover i,
+.parametros .icon-box-1:hover h3 a,
+.parametros .icon-box-1:hover p {
+  color: #fff;
+}
+
+/*ICON BOX 2*/
+.parametros .icon-box-2 {
+  padding: 40px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #fff;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+
+.parametros .icon-box-2 i {
+  color: #FFCF54;
+  font-size: 42px;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 0;
+}
+
+.parametros .icon-box-2 h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.parametros .icon-box-2 h3 a {
+  color: #545454;
+  transition: 0.3s;
+}
+
+.parametros .icon-box-2 p {
+  color: #545454;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.parametros .icon-box-2:hover {
+  background: #FFCF54;
+}
+
+.parametros .icon-box-2:hover i,
+.parametros .icon-box-2:hover h3 a,
+.parametros .icon-box-2:hover p {
+  color: #fff;
+}
+
+/*ICON BOX 3*/
+.parametros .icon-box-3 {
+  padding: 40px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #fff;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+
+.parametros .icon-box-3 i {
+  color: #BFD67B;
+  font-size: 42px;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 0;
+}
+
+.parametros .icon-box-3 h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.parametros .icon-box-3 h3 a {
+  color: #545454;
+  transition: 0.3s;
+}
+
+.parametros .icon-box-3 p {
+  color: #545454;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.parametros .icon-box-3:hover {
+  background: #BFD67B;
+}
+
+.parametros .icon-box-3:hover i,
+.parametros .icon-box-3:hover h3 a,
+.parametros .icon-box-3:hover p {
+  color: #fff;
+}
+
+/*ICON BOX 4*/
+.parametros .icon-box-4 {
+  padding: 40px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #fff;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+
+.parametros .icon-box-4 i {
+  color: #FF914D;
+  font-size: 42px;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 0;
+}
+
+.parametros .icon-box-4 h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.parametros .icon-box-4 h3 a {
+  color: #545454;
+  transition: 0.3s;
+}
+
+.parametros .icon-box-4 p {
+  color: #545454;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.parametros .icon-box-4:hover {
+  background: #FF914D;
+}
+
+.parametros .icon-box-4:hover i,
+.parametros .icon-box-4:hover h3 a,
+.parametros .icon-box-4:hover p {
+  color: #fff;
+}
+
+/*ICON BOX 5*/
+.parametros .icon-box-5 {
+  padding: 40px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #fff;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+
+.parametros .icon-box-5 i {
+  color: #722009;
+  font-size: 42px;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 0;
+}
+
+.parametros .icon-box-5 h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.parametros .icon-box-5 h3 a {
+  color: #545454;
+  transition: 0.3s;
+}
+
+.parametros .icon-box-5 p {
+  color: #545454;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.parametros .icon-box-5:hover {
+  background: #722009;
+}
+
+.parametros .icon-box-5:hover i,
+.parametros .icon-box-5:hover h3 a,
+.parametros .icon-box-5:hover p {
   color: #fff;
 }
 
@@ -1915,3 +2100,14 @@ section {
 .gramatica .tab-pane p:last-child {
   margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------
+# Vocabulario section
+--------------------------------------------------------------*/
+.vocabulario h3 {
+
+}
+
+/*--------------------------------------------------------------
+# Equipe
+--------------------------------------------------------------*/
