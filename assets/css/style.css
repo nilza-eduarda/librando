@@ -114,7 +114,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #fcfbe4;
+  background: #ffff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -2111,3 +2111,44 @@ section {
 /*--------------------------------------------------------------
 # Equipe
 --------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Menu
+--------------------------------------------------------------*/
+.navbar-brand img {
+  width: 120px;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+  color: #262626;
+  font-size: 1.0em;
+  padding: 0.5em 1em;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 150px;
+    margin-left: -30px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
+
+/*--------------------------------------------------------------
+# Modal Parametros
+--------------------------------------------------------------*/
+.wrap { padding: 15px; }
+h1 { font-size: 28px; }
+h4,
+modal-title { font-size: 18px; font-weight: bold; }
+
+.no-borders { border: 0px; }
+.body-message { font-size: 18px; }
+.centered { text-align: center; }
+.btn-primary { background-color: #2086c1; border-color: transparent; outline: none; border-radius: 8px; font-size: 15px; padding: 10px 25px; }
+.btn-primary:hover { background-color: #2086c1; border-color: transparent; }
+.btn-primary:focus { outline: none; }

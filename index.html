@@ -37,23 +37,46 @@
 </head>
 
 <body>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center justify-content-center">
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-item nav-link-scrollto" href="#historia">História</a></li>
-          <li><a class="nav-item nav-link-scrollto" href="#parametros">Parâmetros</a></li>
-          <li><a class="nav-item nav-link-scrollto" href="#gramatica">Gramática</a></li>
-          <div class="logo">
-            <a href="index.html"><img src="assets/img/logo_librando.png" alt="" class="img-fluid"></a>
-          </div>
-          <li><a class="nav-item nav-link-scrollto" href="#vocabulario">Vocabulário</a></li>
-          <li><a class="nav-item nav-link-scrollto" href="#equipe">Equipe</a></li>
-          <li><a class="nav-item nav-link-scrollto" href="#footer">Mais informações</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-  </header><!-- End Header -->
+<!-- ===== HEADER ====== -->
+  <header id="header" class="d-flex justify-content-center align-items-center">
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand d-md-none" href="#">
+          <img src="assets/img/logo_librando.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#historia">História</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#parametros">Parâmetros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#gramatica">Gramática</a>
+            </li>
+            <a class="navbar-brand d-none d-md-block" href="#">
+              <img src="assets/img/logo_librando.png" alt="">
+            </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#vocabulario">Vocabulário</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#equipe">Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Mais informações</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- ===== END HEADER ====== -->
+
 
   <!-- ======= History Section ======= -->
   <div class="container" id="historia">
@@ -76,39 +99,122 @@
         <h4>Parâmetros</h4>
         <div class="row justify-content-center">
           <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box-1">
+            <div class="icon-box-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <i class="bi bi-1-circle-fill"></i>
-              <h3><a href="">CONFIGURAÇÃO DE MÃO</a></h3>
-            </div>
+              <h3><a href="#exampleModal1">CONFIGURAÇÃO DE MÃO</a></h3>
+          </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box-2">
+            <div class="icon-box-2" data-bs-toggle="modal" data-bs-target="#exampleModal2">
               <i class="bi bi-2-circle-fill"></i>
-              <h3><a href="">PONTO DE ARTICULAÇÃO</a></h3>
+              <h3><a href="#exampleModal2">PONTO DE ARTICULAÇÃO</a></h3>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box-3">
+            <div class="icon-box-3" data-bs-toggle="modal" data-bs-target="#exampleModal3">
               <i class="bi bi-3-circle-fill"></i>
-              <h3><a href="">MOVIMENTO</a></h3>
+              <h3><a href="#exampleModal3">MOVIMENTO</a></h3>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-4">
-            <div class="icon-box-4">
+            <div class="icon-box-4" data-bs-toggle="modal" data-bs-target="#exampleModal4">
               <i class="bi bi-4-circle-fill"></i>
-              <h3><a href="">DIRECIONALIDADE</a></h3>
+              <h3><a href="#exampleModal4">DIRECIONALIDADE</a></h3>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-4">
-            <div class="icon-box-5">
+            <div class="icon-box-5" data-bs-toggle="modal" data-bs-target="#exampleModal5">
               <i class="bi bi-5-circle-fill"></i>
-              <h3><a href="">EXPRESSÕES</a></h3>
+              <h3><a href="#exampleModal5">EXPRESSÕES</a></h3>
             </div>
           </div>
         </div>
 
       </div>
     </section><!-- End Featured Section -->
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Modal-->
 
     <!-- ======= Gramática Section ======= -->
     <section id="gramatica" class="gramatica">
