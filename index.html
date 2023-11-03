@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="historia" lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   <title>Librando - Falando com Sinais</title>
   <meta content="" name="description">
@@ -25,7 +24,6 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="assets/css/stylev.css">
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -39,61 +37,47 @@
 
 <body>
 <!-- ===== HEADER ====== -->
-  <header id="header" class="d-flex justify-content-center align-items-center">
-    <nav class="navbar navbar-expand-md">
-      <div class="container-fluid">
-        <a class="navbar-brand d-md-none" href="#">
-          <img src="assets/img/logo_librando.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#historia">História</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#parametros">Parâmetros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#gramatica">Gramática</a>
-            </li>
-            <a class="navbar-brand d-none d-md-block" href="#">
-              <img src="assets/img/logo_librando.png" alt="">
-            </a>
-            <li class="nav-item">
-              <a class="nav-link" href="#vocabulario">Vocabulário</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#equipe">Equipe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Mais informações</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+<header id="header" class="d-flex align-items-center justify-content-center">
+  <nav id="navbar" class="navbar">
+    <!-- ul1 -->
+    <ul id="ul-1">
+      <li><a class="nav-item nav-link-scrollto" href="#historia">História</a></li>
+      <li><a class="nav-item nav-link-scrollto" href="#parametros">Parâmetros</a></li>
+      <li><a class="nav-item nav-link-scrollto" href="#gramatica">Gramática</a></li>
+    </ul>
+    <div class="logo">
+      <a href="index.html"><img src="assets/img/logo_librando.png" alt="" class="img-fluid"></a>
+    </div>
+    <!-- ul2 -->
+    <ul id="ul-2">
+      <li><a class="nav-item nav-link-scrollto" href="#vocabulario">Vocabulário</a></li>
+      <li><a class="nav-item nav-link-scrollto" href="#equipe">Equipe</a></li>
+      <li><a class="nav-item nav-link-scrollto" href="#footer">Mais informações</a></li>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle" onclick="toggleSubMenu()"></i>
+  </nav><!-- .navbar -->
+</header>
 <!-- ===== END HEADER ====== -->
 
 
   <!-- ======= History Section ======= -->
-  <section id="historia" class="historia">
+  <section class="historia">
     <div class="container">
       <h4>História</h4>
       <h1 class="text-uppercase mt-lg-3">Você sabe como surgiu a Língua Brasileira de Sinais?</h1>
       <div class="row">
           <div class="col-lg-6 mt-lg-0 history_text">
-            <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33</p>
+            <p>A Língua Brasileira de Sinais (Libras) tem sua origem profundamente ligada à história do Brasil. Seu desenvolvimento remonta aos tempos coloniais, quando as primeiras comunidades surdas se comunicavam por meio de gestos naturais, formando uma linguagem rudimentar. No entanto, a estruturação da Libras começou a ocorrer mais formalmente no século XIX, influenciada pela Língua de Sinais Francesa.
+
+            O educador francês Ferdinand Berthier desempenhou um papel fundamental ao trazer a Língua de Sinais Francesa para o Brasil e influenciar o desenvolvimento da Libras. Posteriormente, a criação de instituições de ensino para surdos, como o</p>
           </div>
           <div class="col-lg-6 mt-lg-0 history_text">
-            <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33</p>
+            <p>Instituto Nacional de Educação de Surdos (INES), em 1857, desempenhou um papel essencial na evolução e padronização da língua. A Libras conquistou reconhecimento oficial no Brasil em 2002, com a Lei 10.436, e foi regulamentada pelo Decreto 5.626 em 2005, consolidando seu status como uma língua completa e autônoma. Atualmente, a Libras desempenha um papel fundamental na inclusão e comunicação da comunidade surda, sendo uma parte vital da rica diversidade cultural do país. Sua evolução contínua reflete o compromisso do Brasil com a igualdade de direitos e a acessibilidade.</p>
           </div>
-          <img src="assets/img/content/dic1.jpg" alt="Ernest Huet" class="col-lg-6">
-          <img src="assets/img/content/INES.jpg" alt="INES" class="col-lg-6 mt-md-4 mt-sm-4">
+            <img src="assets/img/content/dic1.jpg" alt="Ernest Huet" class="col-lg-6">
+            <img src="assets/img/content/INES.jpg" alt="INES" class="col-lg-6">
       </div>
+      <div id="parametros"></div>
     </div>
   </section>
   <!-- End History -->
@@ -101,71 +85,83 @@
   <main id="main">
 
     <!-- ======= Featured Section ======= -->
-    <section id="parametros" class="parametros">
+    <section class="parametros">
       <div class="container mt-5">
         <h4>Parâmetros</h4>
         <div class="row justify-content-center mt-lg-4">
           <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="icon-box-1" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aos="flip-left">
               <i class="bi bi-1-circle-fill"></i>
               <h3><a href="#exampleModal1">CONFIGURAÇÃO DE MÃO</a></h3>
           </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box-2" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <div class="icon-box-2" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-aos="flip-right">
               <i class="bi bi-2-circle-fill"></i>
               <h3><a href="#exampleModal2">PONTO DE ARTICULAÇÃO</a></h3>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box-3" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            <div class="icon-box-3" data-bs-toggle="modal" data-bs-target="#exampleModal3" data-aos="flip-left">
               <i class="bi bi-3-circle-fill"></i>
               <h3><a href="#exampleModal3">MOVIMENTO</a></h3>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-4">
-            <div class="icon-box-4" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            <div class="icon-box-4" data-bs-toggle="modal" data-bs-target="#exampleModal4" data-aos="flip-left">
               <i class="bi bi-4-circle-fill"></i>
               <h3><a href="#exampleModal4">DIRECIONALIDADE</a></h3>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-4">
-            <div class="icon-box-5" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+            <div class="icon-box-5" data-bs-toggle="modal" data-bs-target="#exampleModal5" data-aos="flip-right">
               <i class="bi bi-5-circle-fill"></i>
               <h3><a href="#exampleModal5">EXPRESSÕES</a></h3>
             </div>
           </div>
         </div>
-
+        <div id="gramatica"></div>
       </div>
     </section><!-- End Featured Section -->
 
     <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <div class="modal-header-1">
+        <h5 class="modal-title" id="exampleModalLabel">Configuração de mão</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body-1 container justify-content-center mt-4">
+        <p>A posição dos dedos é determinada pela maneira como a mão é configurada. Essa configuração pode ser realizada tanto pela mão predominante (a direita para destros e a esquerda para canhotos) quanto pelas duas mãos, conforme o sinal exigir. Os sinais APRENDER, SÁBADO, LARANJA e DESODORANTE-SPRAY têm a mesma configuração de mão e são realizados na testa, na boca e na axila, respectivamente.</p>
+        <div>
+          <img src="assets/img/parametros/Configuração de mão/exemplo1.png">
+        </div>
+        <p>Na Libras há 64 configurações distintas:</p>
+        <div>
+          <img src="assets/img/parametros/Configuração de mão/exemplo2.png">
+        </div>
       </div>
       <div class="modal-footer">
+        Material retirado de: 
       </div>
     </div>
   </div>
 </div>
 
 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <div class="modal-header-2">
+        <h5 class="modal-title" id="exampleModalLabel">Ponto de articulação</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body-2 container mt-4">
+        <p>Esse critério determina a área onde o sinal pode ser executado, sendo definido pelos limites estabelecidos pela extensão máxima dos braços do comunicador. O sinal é realizado ao tocar alguma parte do corpo ou dentro do espaço neutro, que abrange a região do tronco até a cabeça ou à frente do comunicador.</p>
+        <p>Vale ressaltar que, em uma conversa cotidiana, as extremidades geralmente se movem em um espaço mais restrito do que sua extensão máxima, assim, o tamanho do sinal pode ser comparado à intensidade da voz.</p>
+        <p>Exemplos de ponto ou local de articulação os sinais TRABALHAR, BRINCAR, PAQUERAR, realizados no espaço neutro e os sinais ESQUECER, APRENDER e DECORAR realizados na testa.</p>
+        <img src="assets/img/parametros/Ponto de articulação/exemplo1.png">
+      </div>
       </div>
       <div class="modal-footer">
       </div>
@@ -174,14 +170,16 @@
 </div>
 
 <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <div class="modal-header-3">
+        <h5 class="modal-title" id="exampleModalLabel">Movimento</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body-3 container mt-4">
+        <p>Há sinais estáticos que permanecem em um local, enquanto outros envolvem algum tipo de deslocamento. Portanto, o parâmetro de movimento está relacionado à forma como as mãos se deslocam, seja em movimento retilíneo, seguindo uma trajetória curva, circular, ou movimentando-se simultaneamente ou alternadamente com ambas as mãos, entre outras possibilidades. Além disso, o parâmetro de movimento também abrange a direção para a qual as mãos estão se deslocando, seja para frente, para a direita, para a esquerda, e assim por diante.</p>
+        <p>Alguns exemplos de sinais com movimento e sinais sem movimento:</p>
+        <img src="assets/img/parametros/Movimentos/exemplo1.png">
       </div>
       <div class="modal-footer">
       </div>
@@ -190,14 +188,16 @@
 </div>
 
 <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <div class="modal-header-4">
+        <h5 class="modal-title" id="exampleModalLabel">Direcionalidade</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body-4 container mt-4">
+        <p>Esse é o plano em que a palma da mão está voltada. Em alguns sinais, a configuração, o ponto de articulação e o movimento são idênticos, diferindo apenas na orientação da mão. É crucial compreender como a modificação de um único parâmetro pode provocar uma mudança significativa no sinal. Pequenas variações na orientação da mão podem resultar em significados totalmente distintos.</p>
+        <p>Os verbos IR e VIR se opõem em relação à direcionalidade, como os verbos SUBIR e DESCER, ACENDER e APAGAR, ABRIR-PORTA e FECHAR-PORTA.</p>
+        <img src="assets/img/parametros/Direcionalidade/exemplo1.png">
       </div>
       <div class="modal-footer">
       </div>
@@ -206,14 +206,28 @@
 </div>
 
 <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <div class="modal-header-5">
+        <h5 class="modal-title" id="exampleModalLabel">Expressões</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body-5 container mt-4">
+        <p>Esses elementos também são conhecidos como componentes não-manuais e englobam o uso de expressões faciais, linguagem corporal, movimentos da cabeça, olhares e outros gestos. Se alguém deseja expressar raiva em relação a algo ou alguém, muitas vezes, pode fazê-lo somente através de expressões faciais. Da mesma forma, ao responder "sim" ou "não" a uma pergunta, simplesmente balançar a cabeça na direção apropriada é suficiente. Esses exemplos simples ilustram a importância desse parâmetro. No entanto, durante uma conversa em Libras, é necessário combinar vários componentes não-manuais com sinais específicos para garantir a clareza da mensagem.</p>
+        <p>Exemplos de componentes não manuais:</p>
+        <ul>
+          <li><strong>Rosto:</strong></li>
+          <p>Parte superior: sobrancelhas franzidas; olhos arregalados; lance de olhos; sobrancelhas levantadas.
+           <br>Parte inferior: bochechas infladas; bochechas contraídas; lábios.</br></p>
+          <li><strong>Cabeça:</strong></li>
+          <p>Movimento de assentimento (sim); movimento de negação; inclinação para frente; inclinação para o lado; inclinação para trás.</p>
+          <li><strong>Rosto e cabeça:</strong></li>
+          <p>Cabeça projetada para frente; olhos levemente cerrados, sobrancelhas franzidas; cabeça projetada para trás e olhos arregalados.</p>
+          <li><strong>Tronco:</strong></li>
+          <p>Para frente; para trás; balanceamento alternado (ou simultâneo) dos ombros.</p>
+        </ul>
+        <p>A evolução das expressões faciais e corporais é um aspecto crucial na fluência em Libras. Quando se comunica com pessoas surdas, é essencial observar os componentes não-manuais que utilizam. Por exemplo, você pode notar se elas balançam a cabeça para afirmar algo, se movimentam o corpo ou os olhos, ou se fazem expressões faciais ao falar sobre emoções como felicidade, tristeza, raiva ou susto. Portanto, é de extrema importância prestar atenção minuciosa aos sinais e aos seus parâmetros para reproduzi-los de forma precisa. Isso contribui para uma comunicação eficaz e respeitosa na Língua de Sinais Brasileira (Libras).</p>
+        <img src="assets/img/parametros/Expressões/exemplo1.png">
       </div>
       <div class="modal-footer">
       </div>
@@ -224,7 +238,7 @@
 <!--Modal-->
 
     <!-- ======= Gramática Section ======= -->
-    <section id="gramatica" class="gramatica mt-lg-5">
+    <section class="gramatica mt-lg-5">
         <div class="container" data-aos="fade-up">
           <h4>Gramática</h4>
           <ul class="nav nav-tabs row  g-2 d-flex">
@@ -242,13 +256,13 @@
   
             <li class="nav-item col-3">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                <h4>Explica</h4>
+                <h4>Fonética</h4>
               </a>
             </li><!-- End tab nav item -->
   
             <li class="nav-item col-3">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                <h4>Nostrum</h4>
+                <h4>Fonologia</h4>
               </a>
             </li><!-- End tab nav item -->
   
@@ -257,88 +271,87 @@
           <div class="tab-content">
   
             <div class="tab-pane active show" id="tab-1">
-              <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                  <h3>Voluptatem dignissimos provident</h3>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+              <div class="row justify-content-center">
+                <div class="col-lg-6 mt-3 mt-lg-0 d-flex flex-column justify-content-start" data-aos="fade-up" data-aos-delay="100">
+                  <h3>A sintaxe da Libras</h3>
+                  <p>
+                    A sintaxe, que aborda a forma como as palavras são agrupadas para criar frases e expressões, é distinta na Língua Brasileira de Sinais (Libras), divergindo das regras gramaticais das línguas faladas.
                   </p>
-                  <ul>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                  </ul>
+                    <p>
+                    Na Libras, as palavras são representadas por sinais, que podem ser combinados de diferentes maneiras para transmitir diferentes mensagens.
+                  </p>
+                    <p>
+                    Como exemplo, os sinais podem ser agrupados em uma sequência linear, em que cada sinal é exibido um após o outro, ou podem ser apresentados simultaneamente, em que os sinais são exibidos ao mesmo tempo ou em uma sequência não linear.
+                  </p>
+                    <p>
+                    A sintaxe da Língua Brasileira de Sinais (Libras) engloba não apenas a organização das frases, mas também o emprego de elementos funcionais, como conjunções e preposições, juntamente com a disposição das palavras dentro de uma sentença. Além disso, a estrutura das orações na Libras desempenha um papel fundamental na expressão de diversos tipos de mensagens, abrangendo perguntas, afirmações e negações, entre outros contextos comunicativos.
+                  </p>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                  <img src="assets/img/features-1.jpg" alt="" class="img-fluid">
+                <div class="col-lg-6 order-1 order-lg-2 text-center gramatica-content" data-aos="fade-up" data-aos-delay="200">
+                  <img src="assets/img/gramatica/Sintaxe/Libras- Meio Ambiente  48A.jpg" alt="" class="img-thumbnail">
                 </div>
               </div>
             </div><!-- End tab content item -->
   
             <div class="tab-pane" id="tab-2">
               <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                  <h3>Neque exercitationem debitis</h3>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                  <h3>A morfologia da Libras</h3>
+                  <p>
+                    A Morfologia é o estudo da estrutura interna das palavras/sinais, bem como das regras que determinam a sua formação.
                   </p>
-                  <ul>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                  </ul>
+                  <p>
+                    Na Libras, a morfologia é representada por configurações de mão, locações, orientações da palma, movimentos, expressões faciais e corporais, lateralidade (mãos usadas: direta e/ou esquerda) ou mesmo se o sinal é feito com uma ou duas mãos.
+                  </p>
+                  <p>
+                    Cada uma dessas categorias de morfemas pode ser adaptada de acordo com o contexto e a intenção de significado. Por exemplo, um sinal pode ser ajustado para indicar diferentes tempos verbais, como o presente, o passado e o futuro. Além disso, os sinais também podem ser adaptados para refletir várias propriedades gramaticais, como gênero, número e outras características linguísticas.
+                  </p>
+                  <p>
+                    A sintaxe da Libras é influenciada pela morfologia, pois os sinais na Libras são formadas por sinais que podem ser modificados de acordo com o contexto. Por exemplo, a locação de um sinal pode ser alterada para expressar diferentes tipos de mensagens, como perguntas, afirmações e negações. Além disso, a ordem das palavras na frase também pode ser alterada para expressar diferentes significados.
+                  </p>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/features-2.jpg" alt="" class="img-fluid">
+                <div class="col-lg-6 order-2 order-lg-2 text-justify">
+                  <img src="assets/img/gramatica/Morfologia/1699020556170.jpg" alt="" class="img-thumbnail">
                 </div>
               </div>
             </div><!-- End tab content item -->
   
             <div class="tab-pane" id="tab-3">
               <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                  <h3>Voluptatibus commodi accusamu</h3>
-                  <ul>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                  </ul>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0 justify-content-center">
+                  <h3>A fonética da Libras</h3>
+                  <p>
+                    A fonética tem como foco os elementos físicos da produção dos fones, ou seja, quais partes do corpo são necessários para produzirem a articulação de um som (no português) ou a confi guração de mão/movimento/expressões não manuais na LIBRAS. A fonética irá descrever e analisar esses fones separadamente.
+                  </p>
+                  <p>
+                    Esses parâmetros fonéticos da Libras desempenham um papel importante na distinção entre diferentes sinais, e a combinação desses elementos é fundamental para a compreensão e a comunicação na língua de sinais. Portanto, enquanto a Libras não possui uma fonética baseada em sons vocais, ela possui seus próprios elementos fonológicos que desempenham um papel semelhante na organização linguística.
                   </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/gramatica/Fonética/Exemplo.jpg" alt="" class="img-thumbnail">
                 </div>
               </div>
             </div><!-- End tab content item -->
   
             <div class="tab-pane" id="tab-4">
               <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                  <h3>Omnis fugiat ea explicabo sunt</h3>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 justify-content-center">
+                  <h3>A fonologia da Libras</h3>
+                  <p>
+                    A fonologia da Língua Brasileira de Sinais (Libras) refere-se ao estudo dos elementos linguísticos não manuais e manuais que compõem a língua de sinais e como esses elementos são organizados para criar significado. A fonologia da Libras engloba vários aspectos, incluindo a configuração das mãos, o ponto de articulação, o movimento, a expressão facial e os gestos corporais, que são os elementos essenciais para a criação de sinais.
                   </p>
-                  <ul>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                  </ul>
+                  <p>
+                    A fonologia da Libras é crucial para a compreensão e a produção de sinais nessa língua, e o estudo desses elementos é fundamental para quem deseja aprender e comunicar-se eficazmente em Libras.
+                  </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/features-4.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/gramatica/Fonologia/Exemplo.jpg" alt="" class="img-thumbnail">
                 </div>
               </div>
             </div><!-- End tab content item -->
   
           </div>
-  
+          <div id="vocabulario"></div>
         </div>
     </section><!-- End Clients Section -->
 
@@ -346,35 +359,32 @@
 
   <!-- ========== VOCABULARIO ============== -->
 
-  <!-- <section id="vocabulario" class="vocabulario">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 p-4 border">
-          <h3 class="text-center">Introdução</h3>
-        </div>
-        <div class="col-lg-6 p-4 border">
-          <h3 class="text-center">Saudações</h3>
-        </div>
-        <div class="col-lg-6 p-4 border">
-          <h3 class="text-center">Dia-a-dia</h3>
-        </div>
-        <div class="col-lg-6 p-4 border">
-          <h3 class="text-center">Histórias e músicas</h3>
-        </div>
-      </div>
+  <section class="container vocabulario">
+    <div class="card page1">
+        <h1>pagina 1</h1>
     </div>
-  </section> -->
+    <div class="card page2">
+        <h1>pagina 2</h1>
+    </div>
+    <div class="card page3">
+        <h1>pagina 3</h1>
+    </div>
+    <div class="card page4">
+        <h1>pagina 4</h1>
+    </div>
+    <div id="equipe"></div>
+</section>
 
   <!-- ========== END VOCABULARIO ========== -->
 
-  <section id="equipe" class="equipe mt-lg-5">
+  <section class="equipe mt-lg-5">
     <div class="container">
       <h4 class="text-end">Equipe</h4>
       <div class="row justify-content-end">
         <div class="row justify-content-end">
           <div class="team-member col-lg-2 col-md-12">
             <div class="member-img">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/team/gabriel.jpg" class="img-fluid" alt="">
             </div>
             <div class="member-info">
               <h4>Gabriel Victor</h4>
@@ -384,16 +394,16 @@
         </div>
         <div class="team-member col-lg-2 col-md-12">
           <div class="member-img">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/murilo.JPG" class="img-fluid" alt="">
           </div>
           <div class="member-info">
             <h4>Murilo Medeiros</h4>
-            <span>Farofeiro</span>
+            <span></span>
           </div>
         </div>
         <div class="team-member col-lg-2 col-md-12">
           <div class="member-img">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/nilza.jpg" class="img-fluid" alt="">
           </div>
           <div class="member-info">
             <h4>Nilza Eduarda</h4>
@@ -507,6 +517,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/javascript.js"></script>
 
 </body>
 
