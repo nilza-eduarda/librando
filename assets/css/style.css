@@ -1334,19 +1334,24 @@ section {
 # Video
 --------------------------------------------------------------*/
 .video{
-  width: 500px;
+  width: 100%;
 }
 
-@media (max-width: 450px){
+ @media (max-width: 450px){
   .video{
-    width: 300px;
-    margin-left: 20px;
+    width: 100%;
   }
 }
 
-@media (min-width: 450px) and (max-width:1200px){
+@media (min-width:495px) and (max-width:750px){
   .video{
     width: 400px;
-    margin-left: 50px;
+  }
+}
+
+@media (min-width:770px) and (max-width:990px){
+  .video{
+    width: 400px;
+    margin-left: 110px;
   }
 }
