@@ -1359,12 +1359,6 @@ section {
 /*--------------------------------------------------------------
 # Sugestão
 --------------------------------------------------------------*/
-.mensagem{
-  width: 400px;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-}
 .feedback{
   width: 100%;
   border: none;
@@ -1372,4 +1366,6 @@ section {
   background-color: #AF6DED;
   padding: 10px;
   border-radius: 10px;
+  font-size: 13pt;
+  font-family: Raleway, sans-serif;
 }
