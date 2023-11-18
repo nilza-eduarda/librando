@@ -1369,3 +1369,36 @@ section {
   font-size: 13pt;
   font-family: Raleway, sans-serif;
 }
+
+/*--------------------------------------------------------------
+# Questions Screen
+--------------------------------------------------------------*/
+.main-q{
+  max-width: 900px;
+  margin: 70px auto;
+}
+
+.main-q label{
+  font-size: 12pt;
+}
+
+.main-q textarea {
+  border-radius: 12px;
+  outline: none;
+  background-color: #dadbdbc2;
+}
+
+.main-q button {
+  background-color: #AF6DED;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+  font-family: Raleway, sans-serif;
+}
+
+.main-q button:hover{
+  background-color: #BFD67B;
+  transition: all 0.1s linear;
+}

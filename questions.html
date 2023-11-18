@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html id="historia" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Librando - Falando com Sinais</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="assets/img/logo_librando(aba).png" type="image/x-icon">
+
+   <!-- AOS -->
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Eterna
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+<!-- ===== HEADER ====== -->
+<header id="header" class="d-flex align-items-center justify-content-center">
+    <div class="logo">
+      <a href="index.html"><img src="assets/img/logo_librando.png" alt="" class="img-fluid"></a>
+    </div>
+</header>
+<!-- ===== END HEADER ====== -->
+
+<main class="main-q">
+  <form class="px-4" action="avaliacao.php" method="POST">
+  
+      <!-- Pergunta 1 -->
+      <div class="mb-3">
+        <h5 for="obj">O que você compreendeu do objetivo do site?</h5>
+        <textarea class="form-control" id="obj" name="obj" rows="3" maxlength="300" placeholder="Digite aqui" required></textarea>
+      </div>
+  
+      <!-- Pergunta 2 -->
+      <div class="mb-3">
+          <h5 for="difficulty">Você teve alguma dificuldade durante a navegação? Qual?</h5>
+          <textarea class="form-control" id="difficulty" name="difficulty" rows="3" maxlength="200" placeholder="Digite aqui" required></textarea>
+        </div>
+  
+      <!-- Pergunta 3 -->
+      <div class="mb-3">
+        <h5>O design está organizado de forma harmônica?</h5>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="harmony" id="harmony-yes" value="yes" required>
+          <label class="form-check-label" for="harmony-yes">Sim, tudo está bem organizado</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="harmony" id="harmony-no" value="no" required>
+          <label class="form-check-label" for="harmony-no">Não, ficou um pouco confuso</label>
+        </div>
+      </div>
+  
+      <!-- Pergunta 4 -->
+      <div class="mb-3">
+          <h5>Você acha que o nosso site possui acessibilidade?</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="acessibility" id="acessibility-yes" value="yes" required>
+            <label class="form-check-label" for="acessibility-yes">Sim</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="acessibility" id="acessibility-no" value="no" required>
+            <label class="form-check-label" for="acessibility-no">Não</label>
+          </div>
+        </div>
+  
+        <!-- Pergunta 5 -->
+        <div class="mb-3">
+          <h5>Você recomendaria nosso site a outras pessoas?</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="recommendation" id="recommendation-yes" value="yes" required>
+            <label class="form-check-label" for="recommendation-yes">Sim</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="recommendation" id="recommendation-no" value="no" required>
+            <label class="form-check-label" for="recommendation-no">Não</label>
+          </div>
+        </div>
+  
+      <!-- Pergunta 6 -->
+      <div class="mb-3">
+        <h5 for="suggestions">Qual sugestão você daria para aperfeiçoar o nosso site?</h5>
+        <textarea class="form-control" id="suggestions" name="suggestions" rows="3" maxlength="500" placeholder="Digite aqui"></textarea>
+      </div>
+  
+      <button class="btn-q">Enviar</button>
+  
+    </form>
+</main>
+  
